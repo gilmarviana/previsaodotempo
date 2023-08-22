@@ -1,6 +1,9 @@
 // // API
 const key = "87595df0966da2e5048913aa43e44d5d";
 
+// Criando evento para o ENTER
+
+
 function colocarDadosNaTela(dados) {
   console.log(dados);
   document.querySelector(".titulo-cidade").innerHTML ="Tempo em " + dados.name;
@@ -27,3 +30,11 @@ function clickBotao() {
   // Joga esta função para a função listada abaixo
   buscarCidade(cidade);
 }
+
+document.addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+
+        clickBotao();
+    }
+    
+})
