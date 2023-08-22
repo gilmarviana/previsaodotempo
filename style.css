@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+      height: 100vh; /* Vertical  */
+      width: 100vw; /* Horizontal  */
+      display: flex; /* Caixa Flutuando  */
+      justify-content: center; /* Centralizando Horizontal  */
+      align-items: center; /* Centralizando Vertical  */
+      background-image: url(https://source.unsplash.com/1600x900/?landscape);
+  }
+  
+  .box-center { /* Classe da caixa com as informações  */
+      background: #000000; /* Cor de Fundo */
+      opacity: 0.8; /* Deixar mais transparente  */
+      border-radius: 25px; /* Borda Arredondada */
+      padding: 20px; /* espaçamento */
+      width: 95%;
+      max-width: 450px;  /* Limitando a horizontal */
+  
+  }
+  
+  .input-cidade {
+      border: none;
+      outline: none;    /* Linha de seleção ao clicar */
+      padding: 10px;
+      border-radius: 25px;
+      font-size: 18px;
+      background-color: #7c7c7c2b;
+      color: #ffffff;
+      width: calc(100% - 70px); /* Ocupa todo o espaço, menos alguma parte do final */
+  }
+  
+  .botao-busca {
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 50px;
+      background-color: #7c7c7c2b;
+      cursor: pointer; /* Ponteiro muda ao Selecionar o Mouse */
+      float: right;  /* Jogar botão flutuante para a direita */
+  }
+  
+  .img-busca {
+      width: 30px;
+  }
+  
+  .caixa-media {
+      margin-top: 30px;
+  }
+  
+  .titulo-cidade {
+      color: #ffffff;
+      font-size: 28px;
+  }
+  
+  .temp {
+      font-size: 20px;
+      color: #ffffff;
+      margin-top: 20px;
+  }
+  
+  .caixa-menor {
+      display: flex; 
+      align-items: center;
+  }
+  
+  .img-previsao {
+  
+  }
+  
+  .texto-previsao {
+  
+  }
