@@ -67,12 +67,20 @@
   .caixa-menor {
       display: flex; 
       align-items: center;
+      margin-top: 20px;
   }
   
-  .img-previsao {
-  
-  }
+  /* .img-previsao {
+
+} */
   
   .texto-previsao {
-  
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+  }
+
+  .umidade {
+    color: #ffffff;
+    margin-top: 20px;
   }
